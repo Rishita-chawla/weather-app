@@ -49,7 +49,7 @@ body{
     margin-top:15px;
     width:200px;
     height:200px;
-    background-image: url("weather-app-img/images/haze.png");
+    background-image: url("./haze.png");
     background-size: cover;
     margin-left:42%;
 }
