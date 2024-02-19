@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="day21.css">
+</head>
+<body>
+    
+    <form id="form">
+        <input type="text" placeholder="Enter city name: " name="city" id="city">
+        <button>
+            <img src="./weather-app-img/images/search.png">
+        </button>
+    </form>
+    <div id="weatherImage">
+    </div>
+    <h2 id="temperature">298.77°C</h2>
+    <h2 id="city-name">Delhi</h2>
+    <div class="temp">
+      <div class="humidity">
+        <div class="humimg">
+            <img src="./weather-app-img/images/humidity.png">
+        </div>
+        <div id="humdata">
+            <h2 id="hdata">59%</h2>
+            <h2>Humidity</h2>
+        </div>
+       </div>
+      <div class="windSpeed">
+        <div class="windimg">
+            <img src="./weather-app-img/images/wind.png">
+        </div>
+        <div id="windata">
+            <h2 id="wdata">3.6 km/h</h2>
+            <h2>Wind speed</h2>
+        </div>
+      </div>
+    </div>
+    <script src="day21.js"></script>
+    
+</body>
+</html>
