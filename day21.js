@@ -9,7 +9,7 @@ document.querySelector("#form").addEventListener("submit",function(e){
         const {weather,main,wind}=data;
         const imageType=weather[0].main.toLowerCase();
         const existingImage=document.querySelector("#weatherImage");
-        existingImage.style.backgroundImage=`url('weather-app-img/images/${imageType}.png')`;
+        existingImage.style.backgroundImage=`url('./${imageType}.png')`;
         
         const temp=document.querySelector("#temperature");
         temp.innerText=`${main.temp}°C`;
