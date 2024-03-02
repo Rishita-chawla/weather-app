@@ -1,7 +1,7 @@
 document.querySelector("#form").addEventListener("submit",function(e){
     e.preventDefault();
     const city=document.querySelector("input[name='city']").value;
-    const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e5ca505642e54ff56f3c09e68dca8812`;
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e5ca505642e54ff56f3c09e68dca8812&units=metric`;
     fetch(url).then((res)=>{
         console.log("RESOLVED!",res);
         return res.json();
